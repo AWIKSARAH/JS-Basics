@@ -1,9 +1,2 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Step 3</title>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-    </body>
-</html>
+var name_in =prompt("WHat is your name");
+alert("Hello "+name_in);
