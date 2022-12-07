@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Step 2</title>
+        <title>Step 3</title>
         <meta charset="UTF-8">
-        <script src="Step_2.js"></script>
     </head>
     <body>
     </body>
