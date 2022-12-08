@@ -1,4 +1,9 @@
-var num1 = prompt("Give A number");
-var num2 = prompt("Give A number");
+var Fnum=prompt("please enter the number");
+var Snum=prompt("please enter the number");
+ document.getElementById('first_number').value=Fnum;
+document.getElementById('second_number').value=Snum;
+document.getElementById("validate").addEventListener("click",function(){
+alert(Fnum*Snum)
+}
+)
 
-alert(num1*num2);
