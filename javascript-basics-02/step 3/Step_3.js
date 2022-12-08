@@ -1,5 +1,4 @@
-var div = document.querySelector("div");
-var input = document.querySelector("input");
-function onch() {
-    div.innerHTML=input.value; 
+document.querySelector("input").addEventListener("blur", focus);
+function focus() {
+alert("thank you for participating!");
 }
