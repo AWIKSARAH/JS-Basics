@@ -1,8 +1,12 @@
-// var a=;
-console.log("im here")
+let pass = document.getElementById("password");
+let conf = document.getElementById("confirmation");
+document.querySelector("[name='button']").onclick = function () {
 
-document.getElementById("image1").addEventListener("mouseover", function(){
-  
-    this.style = 'border:10px solid red';
-});
-
+  if (pass.value == conf.value) {
+    alert("Password Confirmed!");
+  } else {
+    confirmation.style.border = "1px solid red"
+    password.style.border = "1px solid red";
+    alert("It doesn't match!");
+  }
+};
